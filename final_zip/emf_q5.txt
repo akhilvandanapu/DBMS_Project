@@ -1,0 +1,12 @@
+SelectAttributes: 
+prod, year, 1_sum_quant, 2_avg_quant
+NumberOfGroupingVariables: 
+2
+GroupingAttributes: 
+prod, year
+AggregateFunctionList: 
+1_sum_quant, 2_avg_quant
+GroupingVariableRange: 
+1.prod = prod and 1.year = year , 2.prod = prod
+HavingCondition:
+1_sum_quant > 0.25 * 2_avg_quant

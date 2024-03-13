@@ -1,0 +1,14 @@
+SelectAttributes:
+cust,1_avg_quant, 2_avg_quant,3_avg_quant
+NumberOfGroupingVariables:
+3
+GroupingAttributes:
+cust
+AggregateFunctionList:
+1_avg_quant, 2_avg_quant,3_avg_quant
+GroupingVariableRange:
+1.state = 'NY' 
+2.state = 'NJ'
+3.state = 'CT'
+HavingCondition:
+1_avg_quant > 2_avg_quant and 1_avg_quant > 3_avg_quant

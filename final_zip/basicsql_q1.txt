@@ -1,0 +1,8 @@
+SelectAttributes:
+cust, prod, avg_quant, max_quant,count_quant
+NumberOfGroupingVariables:
+0
+GroupingAttributes:
+cust, prod
+AggregateFunctionList:
+avg_quant, max_quant, min_quant, count_quant

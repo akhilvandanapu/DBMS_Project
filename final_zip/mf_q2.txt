@@ -1,0 +1,10 @@
+SelectAttributes:
+prod, 1_sum_quant, 2_sum_quant,3_sum_quant
+NumberOfGroupingVariables:
+3
+GroupingAttributes:
+prod
+AggregateFunctionList:
+1_sum_quant, 2_sum_quant,3_sum_quant
+GroupingVariableRange:
+1.month = 1 , 2.month = 2 , 3.month = 3

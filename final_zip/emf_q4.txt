@@ -1,0 +1,10 @@
+SelectAttributes:
+cust,month,1_avg_quant, 2_avg_quant,3_avg_quant
+NumberOfGroupingVariables:
+3
+GroupingAttributes:
+cust,month
+AggregateFunctionList:
+1_avg_quant, 2_avg_quant,3_avg_quant
+GroupingVariableRange:
+1.cust = cust and 1.month < month , 2.cust = cust and 2.month > month , 3.cust = cust and 3.month = month
